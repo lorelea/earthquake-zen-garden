@@ -1,4 +1,5 @@
 # earthquake-zen-garden
+Live Demo -> https://lorelea.github.io/earthquake-zen-garden
 
 ## Get started
 - `npm install` - installing dependencies & husky Git-hooks
