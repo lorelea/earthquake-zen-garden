@@ -1,5 +1,4 @@
-# earthquake-zen-garden# earthquake-zen-garden
-Live Demo -> 
+# earthquake-zen-garden
 
 ## Get started
 - `npm install` - installing dependencies & husky Git-hooks

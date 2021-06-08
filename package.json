@@ -11,8 +11,7 @@
   "bugs": {
     "url": "https://github.com/lorelea/earthquake-zen-garden/issues"
   },
-  "homepage": ".",
-  "homepage1": "https://lorelea.github.io/earthquake-zen-garden",
+  "homepage": "https://github.com/lorelea/earthquake-zen-garden#readme",
   "main": "index.js",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
