@@ -1,0 +1,28 @@
+a {
+  color: var(--theme-link--primary);
+  font-weight: 500;
+
+  &:visited,
+  &:hover,
+  &:active {
+    color: var(--theme-link--secondary);
+  }
+}
+
+.category-header,
+h3 {
+  color: var(--theme-text--secondary);
+}
+
+h3,
+h5 {
+  margin: 0 0 1em 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
