@@ -1,0 +1,36 @@
+.dataTable {
+  --padding-min: 2px;
+  --padding-sort: 1em;
+
+  border-collapse: collapse;
+
+  td {
+    padding: var(--padding-min) calc(var(--padding-min) * 3);
+  }
+
+  th {
+    cursor: pointer;
+    position: relative;
+    padding: var(--padding-min) var(--padding-sort);
+
+    &:after {
+      content: '';
+
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-0.5em);
+
+      font-size: 0.5em;
+      width: calc(var(--padding-sort) * 2);
+    }
+
+    &[data-sort='asc']:after {
+      content: ' \25b2';
+    }
+
+    &[data-sort='desc']:after {
+      content: ' \25bc';
+    }
+  }
+}

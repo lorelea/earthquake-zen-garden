@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: var(--spacer) calc(var(--spacer) / 2);
+
+  background-color: var(--theme-background--secondary);
+
+  .logo {
+    display: block;
+    width: auto;
+    height: var(--logo-size);
+  }
+
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1;
+
+    color: var(--theme-text--primary);
+  }
+
+  .profile {
+    font-size: 1.1em;
+  }
+}

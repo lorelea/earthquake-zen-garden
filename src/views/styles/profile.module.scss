@@ -1,0 +1,16 @@
+.profile {
+  --size: calc(var(--logo-size) * 4.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: var(--size) auto;
+
+  .avatar {
+    display: block;
+
+    width: var(--size);
+    height: auto;
+  }
+}
